@@ -20,4 +20,11 @@ from django.urls import include, path
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', include('a_main.urls')),
+    path('accounts/', include('a_accounts.urls')),
+    path('inventory/', include('a_inventory.urls')),
+    path('bookings/', include('a_bookings.urls')),
+    path('loans/', include('a_loans.urls')),
+    path('incidents/', include('a_incidents.urls')),
+    path('audit/', include('a_audit.urls')),
+    path('api/agent/', include('a_agent.urls')),  # becomes the Django Ninja API in phase 3
 ]
