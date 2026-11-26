@@ -1,0 +1,17 @@
+# Course-required (Juhend 1)
+.venv/
+__pycache__/
+*.pyc
+.env
+.env.*
+!.env.example
+db.sqlite3
+staticfiles/
+*.log
+.idea/
+.vscode/
+
+# Local
+venv/
+.DS_Store
+.claude/
